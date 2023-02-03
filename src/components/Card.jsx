@@ -32,7 +32,7 @@ const Card = () => {
       <picture>
         <source srcSet={SVGMobileDivider} media="(max-width: 799px)" />
         <source srcSet={SVGDesktopDivider} media="(min-width: 800px)" />
-        <img srcSet={SVGMobileDivider} alt="divider" />
+        <img src={SVGMobileDivider} alt="divider" />
       </picture>
       <Button onClick={onClick} />
     </div>
